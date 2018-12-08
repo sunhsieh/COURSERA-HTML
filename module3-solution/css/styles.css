@@ -1,0 +1,19 @@
+.page-heading{
+  font-size: 1.5em;
+}
+
+.row div{
+  background-color: #EEEEEE;
+}
+
+.menu-box{
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  height: 1000px;
+}
+
+.menu-box-title{
+  font-weight: bold;
+
+}
