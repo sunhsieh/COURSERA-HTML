@@ -2,11 +2,17 @@
   font-size: 1.5em;
 }
 
+.navbar{
+  background-color: #ACC;
+
+}
+
 .row div{
-  background-color: #EEEEEE;
 }
 
 .menu-box{
+  background-color: #EEC;
+  /* border: 1px solid #999; */
   margin: 10px;
   margin-bottom: 30px;
   padding: 10px;
@@ -16,4 +22,20 @@
 .menu-box-title{
   font-weight: bold;
 
+}
+
+.collapse{
+  background-color: #CEE;
+}
+/* .navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover
+{
+  background-color: #FFF;
+
+} */
+#collapse-navbar  .active>a,
+#collapse-navbar  a:focus,
+#collapse-navbar  a:hover{
+  background-color: #FFF;
 }
