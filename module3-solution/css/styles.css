@@ -4,7 +4,6 @@
 
 .navbar{
   background-color: #ACC;
-
 }
 
 .row div{
@@ -16,7 +15,7 @@
   margin: 10px;
   margin-bottom: 30px;
   padding: 10px;
-  height: 1000px;
+  height: 400px;
 }
 
 .menu-box-title{
@@ -24,9 +23,7 @@
 
 }
 
-.collapse{
-  background-color: #CEE;
-}
+
 /* .navbar-default .navbar-nav>.active>a,
  .navbar-default .navbar-nav>.active>a:focus,
   .navbar-default .navbar-nav>.active>a:hover
@@ -38,4 +35,10 @@
 #collapse-navbar  a:focus,
 #collapse-navbar  a:hover{
   background-color: #FFF;
+}
+
+@media (max-width:766px){
+  .collapse{
+    background-color: #CEE;
+  }
 }
